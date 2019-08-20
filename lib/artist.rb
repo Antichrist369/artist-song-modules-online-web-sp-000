@@ -15,12 +15,8 @@ class Artist
      super 
     @@artists = [] 
    end 
-
-  
-
-  
-
-  def self.all
+   
+   def self.all
     @@artists
   end
 
