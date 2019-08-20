@@ -11,6 +11,7 @@ class Artist
   include Paramable::InstanceMethods
   
    def initialize 
+     super 
     @@artists = [] 
    end 
 
