@@ -15,7 +15,6 @@ class Song
   
   def initialize 
     self.class.all << self 
-    @songs = [] 
   end 
 
   def self.all
