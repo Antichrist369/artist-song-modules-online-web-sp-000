@@ -1,4 +1,4 @@
-require "pry"
+require 'pry'
 module Paramable
   module InstanceMethods 
     def to_param
