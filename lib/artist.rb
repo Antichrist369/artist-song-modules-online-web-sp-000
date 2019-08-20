@@ -9,8 +9,9 @@ class Artist
   include Memorable::InstanceMethods
   include Paramable::InstanceMethods
   
-
-  @@artists = []
+   def initialize 
+    @@artists = [] 
+   end 
 
   
 
