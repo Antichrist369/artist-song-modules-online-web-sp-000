@@ -14,7 +14,7 @@ class Artist
     @@artists = [] 
    def initialize 
      super 
-    @song = [] 
+    @songs = [] 
    end 
    
    def self.all
@@ -25,7 +25,7 @@ class Artist
 
   def add_song(song)
     @songs << song
-    song.artist = self unless song.artist
+    song.artist = self 
   end
 
   def add_songs(songs)
