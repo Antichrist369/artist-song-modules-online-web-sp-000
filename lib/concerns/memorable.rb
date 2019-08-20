@@ -1,4 +1,4 @@
-
+require 'pry"'
 
 module Memorable 
  module ClassMethods 
