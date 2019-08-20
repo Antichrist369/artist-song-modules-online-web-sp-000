@@ -8,11 +8,9 @@ class Song
   include Paramable::InstanceMethods 
   
   attr_accessor :name
-  attr_reader :artist
+  attr_reader :artist 
   
-  def initialize 
-    @@songs = []
-  end 
+  @@songs = [] 
   
    
 
