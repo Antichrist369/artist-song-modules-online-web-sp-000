@@ -6,7 +6,7 @@ module Findable
   module ClassMethods 
     
    def find_by_name(name)
-     @@artists.detect{|a| a.name == name}
+     self.all.detect{|a| a.name.a}
    end 
   end 
   
