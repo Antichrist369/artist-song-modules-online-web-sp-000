@@ -10,7 +10,7 @@ class Artist
   include Memorable::InstanceMethods
   include Paramable::InstanceMethods
   
-  @@artists = [] 
+    @@artists = [] 
    def initialize 
      super 
     @@artists = [] 
